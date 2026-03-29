@@ -1,0 +1,6 @@
+node_modules/
+.env
+wrangler.toml.bak
+EOF && \
+git add -A && \
+git commit -m "init: Cloudflare Worker 背景消除工具 MVP"

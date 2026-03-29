@@ -1,0 +1,10 @@
+name = "remove-bg"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# 免费版：CPU 时间限制 10ms，付费版可到 30s
+# [vars]
+# REMOVE_BG_API_KEY = "your_key_here"
+
+# 使用 wrangler secret 传入 API Key，更安全
+# 运行: wrangler secret put REMOVE_BG_API_KEY
